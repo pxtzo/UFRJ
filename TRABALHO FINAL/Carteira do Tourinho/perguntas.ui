@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Perguntas</class>
+ <widget class="QWidget" name="Perguntas">
+  <property name="windowModality">
+   <enum>Qt::WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1130</width>
+    <height>1137</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1130</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="tabletTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Perguntas</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>imagens/touro_icon.png</normaloff>imagens/touro_icon.png</iconset>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_15">
+   <item>
+    <widget class="QScrollArea" name="area_do_scroll">
+     <property name="cursor" stdset="0">
+      <cursorShape>ArrowCursor</cursorShape>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOn</enum>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QAbstractScrollArea::AdjustToContents</enum>
+     </property>
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <widget class="QWidget" name="widget_area_do_scroll">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1093</width>
+        <height>1117</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QSplitter" name="splitter">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <widget class="QLabel" name="label">
+          <property name="font">
+           <font>
+            <family>Bookman Old Style</family>
+            <pointsize>28</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Seja bem-vindo à Carteira do Tourinho!</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_2">
+          <property name="font">
+           <font>
+            <family>Bookman Old Style</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Ajudaremos você a descobrir qual tipo de investor você melhor se encaixa e a partir disso, como deve investir!</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_3">
+          <property name="font">
+           <font>
+            <family>Bookman Old Style</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Inicialmente faremos perguntas para avaliar o seu perfil:</string>
+          </property>
+         </widget>
+         <widget class="QWidget" name="layoutWidget_2">
+          <layout class="QVBoxLayout" name="verticalLayout_4">
+           <property name="spacing">
+            <number>20</number>
+           </property>
+           <item>
+            <widget class="QGroupBox" name="caixa_6">
+             <property name="font">
+              <font>
+               <family>Bookman Old Style</family>
+               <pointsize>11</pointsize>
+              </font>
+             </property>
+             <property name="title">
+              <string>Conhecimento Financeiro:</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+             </property>
+             <property name="flat">
+              <bool>false</bool>
+             </property>
+             <property name="checkable">
+              <bool>false</bool>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_7">
+              <item>
+               <widget class="QGroupBox" name="caixa_1_1">
+                <property name="font">
+                 <font>
+                  <family>Bookman Old Style</family>
+                  <pointsize>11</pointsize>
+                 </font>
+                </property>
+                <property name="title">
+                 <string>Qual é seu nível de conhecimento sobre investimentos?</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                </property>
+                <property name="flat">
+                 <bool>false</bool>
+                </property>
+                <property name="checkable">
+                 <bool>false</bool>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_5">
+                 <item>
+                  <widget class="QRadioButton" name="botao_a_1">
+                   <property name="text">
+                    <string> Iniciante.</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QRadioButton" name="botao_b_1">
+                   <property name="text">
+                    <string>Intermediário.</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QRadioButton" name="botao_c_1">
+                   <property name="text">
+                    <string>Avançado.</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="caixa_2">
+             <property name="font">
+              <font>
+               <family>Bookman Old Style</family>
+               <pointsize>11</pointsize>
+              </font>
+             </property>
+             <property name="title">
+              <string>Objetivo do Investimento</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+             </property>
+             <property name="flat">
+              <bool>false</bool>
+             </property>
+             <property name="checkable">
+              <bool>false</bool>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_2">
+              <item>
+               <widget class="QGroupBox" name="caixa_2_1">
+                <property name="font">
+                 <font>
+                  <family>Bookman Old Style</family>
+                  <pointsize>11</pointsize>
+                 </font>
+                </property>
+                <property name="title">
+                 <string>Qual é seu principal objetivo financeiro?</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                </property>
+                <property name="flat">
+                 <bool>false</bool>
+                </property>
+                <property name="checkable">
+                 <bool>false</bool>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_3">
+                 <item>
+                  <widget class="QRadioButton" name="botao_a_2">
+                   <property name="text">
+                    <string>Proteger meu capital.</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QRadioButton" name="botao_b_2">
+                   <property name="text">
+                    <string>Crescer meu capital com riscos controlados.</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QRadioButton" name="botao_c_2">
+                   <property name="text">
+                    <string>Obter altos retornos, mesmo com riscos.</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="caixa_5">
+             <property name="font">
+              <font>
+               <family>Bookman Old Style</family>
+               <pointsize>11</pointsize>
+              </font>
+             </property>
+             <property name="title">
+              <string>Horizonte de Tempo</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+             </property>
+             <property name="flat">
+              <bool>false</bool>
+             </property>
+             <property name="checkable">
+              <bool>false</bool>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout">
+              <item>
+               <widget class="QGroupBox" name="caixa_3_1">
+                <property name="font">
+                 <font>
+                  <family>Bookman Old Style</family>
+                  <pointsize>11</pointsize>
+                 </font>
+                </property>
+                <property name="title">
+                 <string>Quanto tempo você pretende manter seus investimentos?</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                </property>
+                <property name="flat">
+                 <bool>false</bool>
+                </property>
+                <property name="checkable">
+                 <bool>false</bool>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout">
+                 <item>
+                  <widget class="QRadioButton" name="botao_a_3_1">
+                   <property name="text">
+                    <string>Mais de 5 anos.</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QRadioButton" name="botao_b_3_1">
+                   <property name="text">
+                    <string> Menos de 1 ano.</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QRadioButton" name="botao_c_3_1">
+                   <property name="text">
+                    <string>Entre 1 e 5 anos.</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QGroupBox" name="caixa_3_2">
+                <property name="font">
+                 <font>
+                  <family>Bookman Old Style</family>
+                  <pointsize>11</pointsize>
+                 </font>
+                </property>
+                <property name="title">
+                 <string>Como você se sentiria se perdesse 20% do valor investido em um mês?</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                </property>
+                <property name="flat">
+                 <bool>false</bool>
+                </property>
+                <property name="checkable">
+                 <bool>false</bool>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_2">
+                 <item>
+                  <widget class="QRadioButton" name="botao_a_3_2">
+                   <property name="text">
+                    <string>Muito desconfortável.</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QRadioButton" name="botao_b_3_2">
+                   <property name="text">
+                    <string>Um pouco desconfortável, mas manteria o investimento.</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QRadioButton" name="botao_c_3_2">
+                   <property name="text">
+                    <string>Tranquilo, pois sei que o mercado pode se recuperar.</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="caixa_4">
+             <property name="font">
+              <font>
+               <family>Bookman Old Style</family>
+               <pointsize>11</pointsize>
+              </font>
+             </property>
+             <property name="title">
+              <string>Reação a Oscilações:</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+             </property>
+             <property name="flat">
+              <bool>false</bool>
+             </property>
+             <property name="checkable">
+              <bool>false</bool>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_4">
+              <item>
+               <widget class="QGroupBox" name="caixa_4_1">
+                <property name="font">
+                 <font>
+                  <family>Bookman Old Style</family>
+                  <pointsize>11</pointsize>
+                 </font>
+                </property>
+                <property name="title">
+                 <string>Se seu investimento valorizasse 10% em um mês, mas depois caísse 5%, o que você faria?</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                </property>
+                <property name="flat">
+                 <bool>false</bool>
+                </property>
+                <property name="checkable">
+                 <bool>false</bool>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_6">
+                 <item>
+                  <widget class="QRadioButton" name="botao_a_4">
+                   <property name="text">
+                    <string>Resgataria imediatamente.</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QRadioButton" name="botao_b_4">
+                   <property name="text">
+                    <string>Manteria o investimento.</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QRadioButton" name="botao_c_4">
+                   <property name="text">
+                    <string>Aproveitaria para investir mais.</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QPushButton" name="botao_finalizado">
+         <property name="font">
+          <font>
+           <family>Bookman Old Style</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="mouseTracking">
+          <bool>true</bool>
+         </property>
+         <property name="text">
+          <string>Finalizado</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
